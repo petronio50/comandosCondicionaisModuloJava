@@ -1,5 +1,14 @@
 package comandoscondicionais;
-
+/*
+Switch/case
+A estrutura condicional switch/case vem como alternativa em momentos em que temos que utilizar múltiplos ifs no código.
+Múltiplos if/else encadeados tendem a tornar o código muito extenso, pouco legível e com baixo índice de manutenção.
+O switch/case testa o valor contido em uma variável, realizando uma comparação com cada uma das opções. 
+Cada uma dessas possíveis opções é delimitada pela instrução case.
+Podemos ter quantos casos de análise forem necessários e, quando um dos valores corresponder ao da variável, o código do case correspondente será executado. 
+Caso a variável não corresponda a nenhum dos casos testados, o último bloco será executado, chamado de default (padrão).
+A análise de cada caso também precisa ter seu final delimitado. Essa delimitação é feita através da palavra break.
+*/
 import java.util.Scanner;
 public class ProgramaComandosSwitchCase {
 	private static final Scanner ENTRADA = new Scanner(System.in);
