@@ -8,6 +8,7 @@ Cada uma dessas possíveis opções é delimitada pela instrução case.
 Podemos ter quantos casos de análise forem necessários e, quando um dos valores corresponder ao da variável, o código do case correspondente será executado. 
 Caso a variável não corresponda a nenhum dos casos testados, o último bloco será executado, chamado de default (padrão).
 A análise de cada caso também precisa ter seu final delimitado. Essa delimitação é feita através da palavra break.
+Bibliografia - https://www.treinaweb.com.br/blog/estruturas-condicionais-e-estruturas-de-repeticao-em-java
 */
 import java.util.Scanner;
 public class ProgramaComandosSwitchCase {
